@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+
+}  
+
+main{
+    background-color: white;
+    font-size: 16px;
+    width: 90%;
+    height: 90vh;
+    margin: 3%;
+}
+
+div.content{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div.h3{
+    font-style: oblique;
+    color: hsl(0, 0%, 95%);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.first{
+    background-color: hsl(31, 77%, 52%);
+    padding: 1cm;
+    width: 52%;
+    color: hsla(0, 0%, 100%, 0.75);
+
+}
+
+.middle{
+    background-color: hsl(184, 100%, 22%);
+    padding: 1cm;
+    width: 55%;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.last{
+    background-color: hsl(179, 100%, 13%);
+    padding: 1cm;
+    width: 50%;
+    color: hsla(0, 0%, 100%, 0.75);
+}
